@@ -1,0 +1,31 @@
+{
+  "name": "webpack-react-treeshaking",
+  "version": "1.0.0",
+  "description": "An example React project with Webpack tree-shaking",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch",
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "Per Nilsson <per@sproutlab.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.6.4",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-native-modules": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-react": "^4.1.0",
+    "webpack": "2.1.0-beta.4",
+    "webpack-dev-server": "2.0.0-beta"
+  }
+}
